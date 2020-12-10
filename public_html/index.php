@@ -15,25 +15,35 @@
     <script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Inventory Managment System</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home"></i>Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fa fa-users"></i>Logout</a>
-        </li>
-      </ul>
+    <!-- Navbar -->
+    <?php  include_once("./templates/header.php"); ?>
+    <br><br>
+
+    <!-- Card -->
+    <div class="container">
+      <div class="card mx-auto" style="width: 20rem;">
+        <img src="./images/login.png" style="width:60%;" class="card-img-top mx-auto" alt="Login Icon">
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="e" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-lock">&nbsp;</i>Login</button>
+            <span><a href="#">Register</a></span>
+          </form>
+
+        </div>
+        <div class="card-footer"><a href="#">Forgot Password?</a></div>
+      </div>
     </div>
-  </div>
-</nav>
 
 
 </body>
