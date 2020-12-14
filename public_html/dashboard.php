@@ -21,15 +21,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="./images/user.png" class="card-img-top" alt="Card image cap">
+                <div class="card mx-auto" style="width: 20rem;">
+                  <img src="./images/user.png" style="width:60%" class="card-img-top mx-auto" alt="Card image cap">
                   <div class="card-body">
-                    <h4 class="card-title">Brian Liang</h4>
-                    <p class="card-text">Admin</p>
+                    <h4 class="card-title"></i>Profile Info</h4>
+                    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Brian Liang</p>
+                    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Admin</p>
                     <p class="card-text">Last Login : xxxx-xx-xx</p>
-                    <a href="#" class="btn btn-primary"><i class="fa fa-user">&nbsp;
+                    <a href="#" class="btn btn-primary"><i class="fa fa-edit">&nbsp;
                     </i>Edit Profile</a>
                   </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="jumbotron" style="width: 100%; height: 100%">
+                    <h1>Welcome Admin,</h1>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <iframe src="http://free.timeanddate.com/clock/i7l8nwj9/n199/szw160/szh160/hoca32/hbw10/hfcc00/cf100/hnca32/fas30/facfff/fdi86/mqcfff/mqs2/mql3/mqw4/mqd70/mhcfff/mhs2/mhl3/mhw4/mhd70/mmcfff/mml4/mmw4/mmd98/hhcfff/hhs2/hmcfff/hms2/hscfff" frameborder="0" width="160" height="160"></iframe>
+                            </div>
+                            <div class="col-sm-6">
+                            
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
